@@ -1,0 +1,137 @@
+@import './base.css';
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+} */
+
+/* a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+} */
+.a-gray{
+  color: #999;
+}
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+} */
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+.f_right{
+  float: right;
+}
+
+.f_left{
+  float: left;
+}
+
+.inline-box{
+  display: inline-block;
+}
+
+.middle-font{
+  font-size: 14px;
+}
+
+.c333{
+  color: #333!important;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.h_32{
+  line-height: 32px !important;
+  height: 32px !important;
+  display: inline-block;
+}
+
+.h_26{
+  line-height: 26px !important;
+  height: 26px !important;
+  display: inline-block;
+}
+.bg-gray {
+  background: #f7f7f6;
+}
+.bold{
+  font-weight: 700;
+}
+.red_d0{
+  color: #d00000;
+}
+.defualt_b{
+  color:#8c222c;
+}
+.m_r20 {
+  margin-right: 20px;
+}
+.m_l100 {
+  margin-left: 100px;
+}
+.error_background{
+  background-color: #fef9f8;
+}
+.addr_list,.addr_create_item{
+  margin-top: 10px;
+}
